@@ -9,6 +9,7 @@
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 
 .nav-logo{
@@ -28,4 +29,29 @@
 }
 .border:hover{
     border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left:15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 4px;
 }
